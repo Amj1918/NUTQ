@@ -1,0 +1,154 @@
+#div-1 {
+    background-color: #1E3C50;
+}
+.logo {
+    height: 80px;
+    width: 247px;
+}
+.a-1 {
+    color: white !important;
+    font-size: 15px !important;
+}
+.ul-1 {
+    margin-left: 20px;
+}
+.header-1 {
+    margin-top: 200px;
+    margin-left: 40px;
+    color: white;
+    text-align: left;
+    font-size: 56px;
+    font-weight: 700;
+    max-width: 591px;
+    color: #fff;
+    line-height: 140%;
+    letter-spacing: -2%;
+    
+}
+.paragraph-1 {
+    margin-left: 40px;
+    color: white;
+    margin-top: 50px;
+
+}
+.paragraph-3{
+    font-weight: bolder;
+}
+
+#div-3 {
+    margin-top: 100px;
+}
+.card-1 {
+    border-radius: 30px 30px 30px 30px !important;
+}
+.header-2 {
+    margin-top: 100px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+#div-4{
+    margin-top: 150px;
+}
+#div-5 {
+    margin-top: 50px;
+}
+.header-3 {
+    text-align: center;
+    font-size: 20px;
+    color: #1E3C50;
+}
+.paragraph-2 {
+    margin-left: 10px;
+    /* font-weight: bolder; */
+
+}
+#div-6 {
+    margin-top: 80px;
+}
+.header-4 {
+    margin-left: 10px;
+}
+#div-footer {
+    margin-top: 50px;
+    background-color: #1E3C50;
+}
+#div-footer-1 {
+    margin-top: 80px;
+}
+.ul-2 {
+    margin-top: 100px;
+    list-style-type: none;
+}
+.li-1 {
+    padding: 5px;
+}
+.a-1 {
+    color: white;
+    text-decoration: none;
+}
+.ul-3 {
+    list-style-type: none;
+   
+}
+.li-3 {
+  display: inline-block;
+  padding: 3px;
+  
+}
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    font-size: 36px;
+    margin-right: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #1E3C50; 
+    color: black;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  /* .openbtn:hover {
+    background-color: #444;
+  }
+   */
+  #main {
+    transition: margin-right .5s;
+    padding: 16px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NUTQ Legal Platform</title>
+<link rel="stylesheet"
+href="css/style.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f9;
+        }
+        .container {
+            display: flex;
+            width: 100vw ;
+            height: 100vh;
+        }
+        .form-container, .info-container {
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex: 1;
+        }
+        .form-container {
+            background-color: #BB9684;
+            color: white;
+        }
+        .info-container {
+            background-color: #1E3C50;
+            color: white;
+            text-align: center;
+        }
+        .form-container h1{
+            text-align: center; 
+            color: var(--custom-blue);
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        input[type="text"], input[type="email"], input[type="password"], input[type="date"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #1E3C50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #1E3C50;
+        }
+        .footer-text {
+            margin-top: 10px;
+            text-align: center;
+        }
+        .footer-text a {
+            color: white;
+            text-decoration: none;
+        }
+        .footer-text a:hover {
+            text-decoration: underline;
+        }
+        .checkbox-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        .checkbox-container input {
+            margin-right: 10px;
+        }
+        .info-container h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .info-container p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h1>Create Account </h1>
+            <form style="display:flex; flex-direction:column; align-items:center; gap:1rem">
+                <input style="width: 400px; border-radius: 30px 30px 30px 30px;" type="text" placeholder="Full Name" required> 
+                <input style="width: 400px; border-radius: 30px 30px 30px 30px;" type="email" placeholder="Email Address" required>
+                <input style="width: 400px; border-radius: 30px 30px 30px 30px;" type="password" placeholder="Password" required>
+                <input style="width: 400px; border-radius: 30px 30px 30px 30px;" type="text" placeholder="Number" required>
+                <input style="width: 400px; border-radius: 30px 30px 30px 30px;" type="date" placeholder="Date of Birth" required>
+                <button style="width: 100px;border-radius: 30px 30px 30px 30px;" type="submit">Sign Up</button>
+                <div class="footer-text">
+                    Already have an account? <a href="#">Login</a>
+                </div>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="createLawyer">
+                    <label for="createLawyer">Create lawyer press here</label>
+                </div>
+            </form>
+        </div>
+        <div class="info-container">
+                <div style="text-align: left;" class="text-white px-lg-4 py-lg-5 p-md-5 mx-md-4">
+                    <h3 style="font-size: calc(1.3rem + .6vw); line-height: 0.7em;" class="mb-3">You are welcome </h3>
+                    <h3 style="font-size: calc(1.3rem + .6vw); line-height: 0.7em;" class="mb-3">in NUTQ legal platform</h3>
+                    <p class="small mb-0">The most powerful legal platform that provides consultation <br> case services in more than 16 specializations through hundreds of lawyers licensed by the Ministry of Justice.</p>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
